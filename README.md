@@ -1,6 +1,27 @@
 # Workflow
 
-> Start building a [Preact] Progressive Web App in seconds 🔥
+Workflow is a simple cli app to simplify the managment of my projects. I am an avid Todoist user and I like to keep all my
+tasks available within the app. This project creates Todoist projects and analyzes source code to import comments with TODO 
+tags into Todoist.
+
+### Requirements
+
+
+### Features 
+
+1. Creates projects
+  - Creates a repo in you github account
+  - Adds simple README
+  - Clones the repo 
+  - Moves a basic .gitignore to project
+  - Creates a project in Todoist
+2. Imports TODO from code to Todoist
+  - Extracts comments from source code and imports the todo tags to 
+
+### Config 
+
+```
+```
 
 ### Usage
 
@@ -14,8 +35,10 @@ Example:
 $ preact create default my-project
 ```
 
-The above command pulls the template from [preactjs-templates/default], prompts for some information, and generates the project at `./my-project/`.
+### Supported Languages
 
+- Python
+- Java 
 
 ### CLI Options
 
@@ -36,5 +59,6 @@ $ preact create <template-name> <project-name>
 
 Note: If you don't specify enough data to the `preact create` command, it will prompt the required questions.
 
-### Requirements
 
+
+### Future Features 
